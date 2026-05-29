@@ -1,0 +1,14 @@
+# Spleef configuration.
+# The arena section is written by the in-game /spleef setup commands - you
+# normally don't edit it by hand.
+
+min-players: 2
+max-players: 8
+countdown-seconds: 10
+# Players who fall below this Y are eliminated.
+# (Set automatically by /spleef setup losey, defaults from the floor otherwise.)
+
+# Block the floor is made of, and the tool players dig with.
+floor-material: SNOW_BLOCK
+
+arena: {}

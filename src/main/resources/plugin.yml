@@ -1,0 +1,19 @@
+name: Spleef
+version: '${project.version}'
+main: io.github.standardan.spleef.SpleefPlugin
+api-version: '1.21'
+description: A complete single-arena Spleef minigame with a full game lifecycle.
+author: Standardan
+
+commands:
+  spleef:
+    description: Join/leave Spleef, or set up the arena.
+    usage: /spleef <join|leave|start|setup ...>
+
+permissions:
+  spleef.play:
+    description: Join and play Spleef.
+    default: true
+  spleef.admin:
+    description: Set up and control Spleef arenas.
+    default: op
